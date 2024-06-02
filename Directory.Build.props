@@ -1,0 +1,10 @@
+<Project>
+    <PropertyGroup>
+        <VersionPrefix>1.0.0</VersionPrefix>
+        <VersionSuffix></VersionSuffix>
+        <Product>RunThisAsAdmin</Product>
+        <Description>Application to bypass UAC prompt to make the use of applications that need admin right easier.</Description>
+    </PropertyGroup>
+
+    <Import Project="$(MSBuildThisFileDirectory)Directory.Build.props.user" Condition="Exists('$(MSBuildThisFileDirectory)Directory.Build.props.user')" />
+</Project>
